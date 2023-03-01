@@ -1,0 +1,8 @@
+function pow(x, n) {
+x = function pow(x,n) {
+x && n > 0 ? alert(x**n) : alert("Число не поддерживается")
+}
+
+let x = prompt("Введите x")
+let n = prompt("Введите n")
+let result = pow(x,n)
